@@ -27,12 +27,9 @@
         "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
 
         "predis/predis": "~1.0",
-        "wp-cli/wp-cli": "^1.0"
-    },
-    "suggest": {
-        "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",
-        "trepmal/wp-revisions-cli": "WP CLI tool for cleaning up revisions (dev-master)",
-        "wpackagist-plugin/wordfence": "web application firewall"
+        "wp-cli/wp-cli": "^1.0",
+        "wpackagist-plugin/wordfence": "^6.2",
+        "wpackagist-plugin/cloudflare-cache-purge": "^1.2"
     },
     "repositories": [
         {

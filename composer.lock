@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "714ceef8307cfcbd2f41f9c0bc01cb5b",
-    "content-hash": "5d3bb0df24e21eb77d6bf310e80675ed",
+    "hash": "1abb39f2e92fa49138a8b9674e705866",
+    "content-hash": "6149c983b0184d54dae6a588973250f7",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -1732,6 +1732,26 @@
             "homepage": "https://wordpress.org/plugins/authy-two-factor-authentication/"
         },
         {
+            "name": "wpackagist-plugin/cloudflare-cache-purge",
+            "version": "1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cloudflare-cache-purge/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cloudflare-cache-purge.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cloudflare-cache-purge/"
+        },
+        {
             "name": "wpackagist-plugin/jetpack",
             "version": "4.4.2",
             "source": {
@@ -1810,6 +1830,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-plugin/wordfence",
+            "version": "6.2.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordfence/",
+                "reference": "tags/6.2.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.6.2.7.zip",
+                "reference": "tags/6.2.7",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordfence/"
         }
     ],
     "packages-dev": [],
