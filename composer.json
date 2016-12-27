@@ -29,7 +29,8 @@
         "predis/predis": "~1.0",
         "wp-cli/wp-cli": "~1.0",
         "wpackagist-plugin/wordfence": "^6.2",
-        "wpackagist-plugin/cloudflare-cache-purge": "^1.2"
+        "wpackagist-plugin/cloudflare-cache-purge": "^1.2",
+        "wpackagist-plugin/functionality": "^1.2"
     },
     "repositories": [
         {
