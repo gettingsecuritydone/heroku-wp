@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "72b409eeb0d41f1957471f0e06b6b9e5",
-    "content-hash": "38496e21df064d04399334f1875d92c5",
+    "hash": "0f9d10d37ebe4e02d4d61bc2ae001e9f",
+    "content-hash": "c4d5be9680948ddbefd26d4b6bad6de2",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -1745,7 +1745,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/cloudflare-cache-purge.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -1753,6 +1753,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/cloudflare-cache-purge/"
+        },
+        {
+            "name": "wpackagist-plugin/functionality",
+            "version": "1.2.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/functionality/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/functionality.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/functionality/"
         },
         {
             "name": "wpackagist-plugin/jetpack",
@@ -1825,7 +1845,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -1836,16 +1856,16 @@
         },
         {
             "name": "wpackagist-plugin/wordfence",
-            "version": "6.2.8",
+            "version": "6.2.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/6.2.8"
+                "reference": "tags/6.2.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.6.2.8.zip",
-                "reference": null,
+                "url": "https://downloads.wordpress.org/plugin/wordfence.6.2.9.zip",
+                "reference": "tags/6.2.9",
                 "shasum": null
             },
             "require": {
