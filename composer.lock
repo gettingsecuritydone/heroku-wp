@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0f9d10d37ebe4e02d4d61bc2ae001e9f",
-    "content-hash": "c4d5be9680948ddbefd26d4b6bad6de2",
+    "hash": "a6df111eec6cf4e71d8cc966dc601b7c",
+    "content-hash": "ede8fdfc278b739a47372776e77bfafa",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -1765,7 +1765,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/functionality.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -1853,6 +1853,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-plugin/sumome",
+            "version": "1.22",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/sumome/",
+                "reference": "tags/1.22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/sumome.1.22.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/sumome/"
         },
         {
             "name": "wpackagist-plugin/wordfence",
