@@ -40,7 +40,7 @@
 #############
 bin/composer
 bin/composer-setup.php
-bin/iron-worker/node_modules/
+bin/iron-worker.tmp
 public.built/
 tmp/
 vendor/
@@ -55,4 +55,4 @@ vendor/
 .Trashes
 ehthumbs.db
 Thumbs.db
-Icon[]
+Icon[]
