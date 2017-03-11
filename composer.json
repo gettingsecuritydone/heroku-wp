@@ -13,7 +13,7 @@
     ],
     "require": {
         "ext-gd": "*",
-        "php": "~7.0.14",
+        "php": "^7.0.16",
 
         "WordPress/WordPress": "*",
 
@@ -23,25 +23,25 @@
 
         "humanmade/s3-uploads": "~1",
         "wpackagist-plugin/authy-two-factor-authentication": "~3",
-        "wpackagist-plugin/jetpack": "~4",
-        "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
+        "wpackagist-plugin/jetpack": "^4.7",
+        "wpackagist-plugin/sendgrid-email-delivery-simplified": "^1.10.7",
 
         "predis/predis": "~1.0",
         "wp-cli/wp-cli": "~1.0",
-        "wpackagist-plugin/wordfence": "^6.2",
-        "wpackagist-plugin/cloudflare-cache-purge": "^1.2",
-        "wpackagist-plugin/functionality": "^1.2",
-        "wpackagist-plugin/sumome": "^1.22"
+        "wpackagist-plugin/wordfence": "^6.3.3",
+        "wpackagist-plugin/cloudflare-cache-purge": "~1.2",
+        "wpackagist-plugin/functionality": "~1.2",
+        "wpackagist-plugin/sumome": "^1.25"
     },
     "repositories": [
         {
             "type": "package",
             "package": {
                 "name": "WordPress/WordPress",
-                "version": "4.7.2",
+                "version": "4.7.3",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/WordPress/WordPress/archive/4.7.2.zip"
+                    "url": "https://github.com/WordPress/WordPress/archive/4.7.3.zip"
                 }
             }
         },
