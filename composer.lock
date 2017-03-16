@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3c876546fafb993b9d0752ac9bfdbf91",
-    "content-hash": "0fb9d20e0d0645d9aaa2e436c1e36171",
+    "hash": "3bc6e9a13f427aefd2bdb7a5139728d5",
+    "content-hash": "d80c5130a204410d0120ce089f340306",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -1780,15 +1780,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "4.7",
+            "version": "4.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/4.7"
+                "reference": "tags/4.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.4.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.4.7.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1880,15 +1880,15 @@
         },
         {
             "name": "wpackagist-plugin/wordfence",
-            "version": "6.3.3",
+            "version": "6.3.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/6.3.3"
+                "reference": "tags/6.3.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.6.3.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.6.3.4.zip",
                 "reference": null,
                 "shasum": null
             },
