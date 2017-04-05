@@ -24,7 +24,7 @@
         "humanmade/s3-uploads": "~1",
         "wpackagist-plugin/authy-two-factor-authentication": "~3",
         "wpackagist-plugin/jetpack": "~4",
-        "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
+        "wpackagist-plugin/sendgrid-email-delivery-simplified": "^1.10.7",
 
         "predis/predis": "~1",
         "wp-cli/wp-cli": "~1",
