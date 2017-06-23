@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f19347df6fc19b7395d16482cf48e011",
-    "content-hash": "9e4802db718875dc8ae9b3100ff1266e",
+    "hash": "172f4713f61ec510c9a628bfb8454316",
+    "content-hash": "4c64e67c423bb50821534558cdc72489",
     "packages": [
         {
             "name": "WordPress/WordPress",
-            "version": "4.7.5",
+            "version": "4.8",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.7.5.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -901,16 +901,16 @@
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "791f8c594f300d246cdf01c6b3e1e19611e301d8"
+                "reference": "50d63f2858d87c4738d5b76a7dcbb99fa8cf7c77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/791f8c594f300d246cdf01c6b3e1e19611e301d8",
-                "reference": "791f8c594f300d246cdf01c6b3e1e19611e301d8",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/50d63f2858d87c4738d5b76a7dcbb99fa8cf7c77",
+                "reference": "50d63f2858d87c4738d5b76a7dcbb99fa8cf7c77",
                 "shasum": ""
             },
             "require": {
@@ -946,7 +946,7 @@
                 "parser",
                 "validator"
             ],
-            "time": "2017-03-06 16:42:24"
+            "time": "2017-06-18 15:11:04"
         },
         {
             "name": "seld/phar-utils",
@@ -1410,16 +1410,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
+                "reference": "f29dca382a6485c3cbe6379f0c61230167681937"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
-                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f29dca382a6485c3cbe6379f0c61230167681937",
+                "reference": "f29dca382a6485c3cbe6379f0c61230167681937",
                 "shasum": ""
             },
             "require": {
@@ -1431,7 +1431,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -1465,7 +1465,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2017-06-09 14:24:12"
         },
         {
             "name": "symfony/process",
@@ -1782,16 +1782,16 @@
         },
         {
             "name": "wp-cli/config-command",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/config-command.git",
-                "reference": "eb50ae43b9c43282e71cce73535fdba73bd36dff"
+                "reference": "3d812504a4a6c0ed690bbea839c07859aedd2edd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/config-command/zipball/eb50ae43b9c43282e71cce73535fdba73bd36dff",
-                "reference": "eb50ae43b9c43282e71cce73535fdba73bd36dff",
+                "url": "https://api.github.com/repos/wp-cli/config-command/zipball/3d812504a4a6c0ed690bbea839c07859aedd2edd",
+                "reference": "3d812504a4a6c0ed690bbea839c07859aedd2edd",
                 "shasum": ""
             },
             "require-dev": {
@@ -1832,7 +1832,7 @@
             ],
             "description": "Manage the wp-config.php file.",
             "homepage": "https://github.com/wp-cli/config-command",
-            "time": "2017-05-30 18:56:17"
+            "time": "2017-06-20 15:38:51"
         },
         {
             "name": "wp-cli/core-command",
@@ -2191,16 +2191,16 @@
         },
         {
             "name": "wp-cli/extension-command",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/extension-command.git",
-                "reference": "a3e26492cc46b4fb31b23944a5d97bae95a52292"
+                "reference": "8489bc23aad242796cba15f78ce75192b1774ea5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/extension-command/zipball/a3e26492cc46b4fb31b23944a5d97bae95a52292",
-                "reference": "a3e26492cc46b4fb31b23944a5d97bae95a52292",
+                "url": "https://api.github.com/repos/wp-cli/extension-command/zipball/8489bc23aad242796cba15f78ce75192b1774ea5",
+                "reference": "8489bc23aad242796cba15f78ce75192b1774ea5",
                 "shasum": ""
             },
             "require-dev": {
@@ -2266,7 +2266,7 @@
             ],
             "description": "Manage WordPress plugins and themes.",
             "homepage": "https://github.com/wp-cli/extension-command",
-            "time": "2017-05-30 21:38:13"
+            "time": "2017-06-08 09:01:02"
         },
         {
             "name": "wp-cli/import-command",
@@ -2378,16 +2378,16 @@
         },
         {
             "name": "wp-cli/media-command",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/media-command.git",
-                "reference": "5ea664836616a350c31a60f9df8308181e741134"
+                "reference": "dfa3b80a8d7fbc9fb90753d5bf59ba7efd541530"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/media-command/zipball/5ea664836616a350c31a60f9df8308181e741134",
-                "reference": "5ea664836616a350c31a60f9df8308181e741134",
+                "url": "https://api.github.com/repos/wp-cli/media-command/zipball/dfa3b80a8d7fbc9fb90753d5bf59ba7efd541530",
+                "reference": "dfa3b80a8d7fbc9fb90753d5bf59ba7efd541530",
                 "shasum": ""
             },
             "require": {
@@ -2428,7 +2428,7 @@
             ],
             "description": "Import and regenerate attachments.",
             "homepage": "https://github.com/wp-cli/media-command",
-            "time": "2017-05-30 21:25:25"
+            "time": "2017-06-16 08:49:06"
         },
         {
             "name": "wp-cli/mustangostang-spyc",
@@ -2538,16 +2538,16 @@
         },
         {
             "name": "wp-cli/php-cli-tools",
-            "version": "v0.11.2",
+            "version": "v0.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/php-cli-tools.git",
-                "reference": "6d231e5538b2c0db909b2cb49d30a45faf20069a"
+                "reference": "09075e5a5ba804df43e148f887cbf4466bebfa2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/6d231e5538b2c0db909b2cb49d30a45faf20069a",
-                "reference": "6d231e5538b2c0db909b2cb49d30a45faf20069a",
+                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/09075e5a5ba804df43e148f887cbf4466bebfa2c",
+                "reference": "09075e5a5ba804df43e148f887cbf4466bebfa2c",
                 "shasum": ""
             },
             "require": {
@@ -2584,7 +2584,7 @@
                 "cli",
                 "console"
             ],
-            "time": "2017-02-15 12:17:55"
+            "time": "2017-06-08 12:06:09"
         },
         {
             "name": "wp-cli/rewrite-command",
@@ -3291,15 +3291,15 @@
         },
         {
             "name": "wpackagist-plugin/wordfence",
-            "version": "6.3.10",
+            "version": "6.3.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/6.3.10"
+                "reference": "tags/6.3.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.6.3.10.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.6.3.11.zip",
                 "reference": null,
                 "shasum": null
             },
