@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "172f4713f61ec510c9a628bfb8454316",
-    "content-hash": "4c64e67c423bb50821534558cdc72489",
+    "hash": "27e921a5ff75b2b0f400c6ff7d47c639",
+    "content-hash": "351f2725742ba179a7e2a77948a0611f",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -3191,15 +3191,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "4.9",
+            "version": "5.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/4.9"
+                "reference": "tags/5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.4.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.5.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -3320,7 +3320,7 @@
     "prefer-lowest": false,
     "platform": {
         "ext-gd": "*",
-        "php": "~7"
+        "php": "^7.1.6"
     },
     "platform-dev": []
 }
