@@ -13,7 +13,7 @@
     ],
     "require": {
         "ext-gd": "*",
-        "php": "^7.1.6",
+        "php": "~7.0.17",
 
         "WordPress/WordPress": "*",
 
