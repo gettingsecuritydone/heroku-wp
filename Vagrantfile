@@ -8,9 +8,22 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "bento/ubuntu-16.04"
 
-  config.vm.synced_folder ".", "/app", type: "nfs"
+  config.vm.synced_folder ".", "/app"
+
+  # Use password auth
+  config.ssh.username = "vagrant"
+  config.ssh.password = "vagrant"
+
+  # Manage our hostfile for us
+  if Vagrant.has_plugin?("vagrant-hostmanager")
+    config.hostmanager.enabled = true
+    config.hostmanager.manage_host = true
+    config.hostmanager.manage_guest = true
+  else
+    config.vm.post_up_message = "Vagrant-hostmanager is not installed. Manual update of your hostfile is required."
+  end
 
   # Keep it simple; just 1 VM for db and web
   config.vm.define "herokuwp" do |herokuwp|
